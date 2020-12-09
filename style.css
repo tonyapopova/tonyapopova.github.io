@@ -1,5 +1,6 @@
 .container {
     max-width: 900px;
+    margin-top: 50px;
 }
 
 .img-girl, .img-wine {
@@ -11,4 +12,21 @@
 
 .tonya {
     text-align: right;
+}
+
+@media (max-width: 800px) {
+    .container {
+        margin-top: 0;
+    }
+    .whereToBuy {
+        background-color: #FFFFFF;
+        background-image: url("images/wine.jpg");
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 150px;
+    }
+
+    .img-wine {
+        display: none;
+    }
 }
