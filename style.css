@@ -1,0 +1,14 @@
+.container {
+    max-width: 900px;
+}
+
+.img-girl, .img-wine {
+}
+
+.borderless td, .borderless th, .borderless thead th {
+    border: none;
+}
+
+.tonya {
+    text-align: right;
+}
